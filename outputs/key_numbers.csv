@@ -1,0 +1,18 @@
+﻿slide,metric,value,source
+slide 3,activation_rate,0.8472,agg_funnel.csv
+slide 3,fee_rate_activated,0.6508498583569405,agg_funnel.csv
+slide 3,fee_rate_all_signups,0.5514,agg_funnel.csv
+slide 3,share_of_non_payers_never_activated,0.34061524743646904,agg_funnel.csv
+slide 4,allowance_effect_pp,25.06150820021939,marginal_effects.csv
+slide 4,family_login_effect_pp,19.56046511212374,marginal_effects.csv
+slide 4,failed_spend_effect_pp,-12.333835502779682,marginal_effects.csv
+slide 5,fee_rate_allowance_and_family_login,0.9379474940334129,agg_allowance_family_matrix.csv
+slide 5,fee_rate_neither,0.4903943377148635,agg_allowance_family_matrix.csv
+slide 6,fee_rate_referral,0.7680722891566265,agg_segments.csv
+slide 6,fee_rate_tiktok,0.5426944971537002,agg_segments.csv
+slide 6,fee_rate_ios,0.680038666022233,agg_segments.csv
+slide 6,fee_rate_web,0.6,agg_segments.csv
+slide 7,activation_nudges_central_pp,1.7572946175637392,opportunity_sizing.csv
+slide 7,allowance_onboarding_central_pp,1.0616054873612935,opportunity_sizing.csv
+slide 7,failed_payments_central_pp,0.36131971105393074,opportunity_sizing.csv
+slide 8,users_per_group_for_3pp,4283.0,power_calc.csv

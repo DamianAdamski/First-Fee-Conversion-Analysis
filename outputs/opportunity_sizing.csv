@@ -1,0 +1,10 @@
+﻿lever,scenario,assumption,impact_pp_all_signups,extra_payers_per_10k_signups
+R1 activation nudges,low,+2pp activation; new activators pay at 75% of today's rate,0.9762747875354107,98.0
+R1 activation nudges,central,+3pp activation; new activators pay at 90% of today's rate,1.7572946175637392,176.0
+R1 activation nudges,high,+5pp activation; new activators pay at 100% of today's rate,3.254249291784703,325.0
+R2 allowance in onboarding,low,+5pp allowance uptake; 25% of adjusted effect causal,0.26540137184032336,27.0
+R2 allowance in onboarding,central,+10pp allowance uptake; 50% of adjusted effect causal,1.0616054873612935,106.0
+R2 allowance in onboarding,high,+15pp allowance uptake; 75% of adjusted effect causal,2.38861234656291,239.0
+R3 fewer failed card payments,low,20% fewer users with a decline; 25% of adjusted effect causal,0.10323420315826594,10.0
+R3 fewer failed card payments,central,35% fewer users with a decline; 50% of adjusted effect causal,0.36131971105393074,36.0
+R3 fewer failed card payments,high,50% fewer users with a decline; 75% of adjusted effect causal,0.7742565236869945,77.0

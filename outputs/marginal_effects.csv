@@ -1,0 +1,21 @@
+﻿term,group,effect_pp,ci_low_pp,ci_high_pp,p_value,raw_term
+has_allowance,behaviour,25.06150820021939,22.45012523299016,27.672891167448622,6.27459829941672e-79,has_allowance
+has_family_login,behaviour,19.56046511212374,16.721120640160336,22.399809584087144,1.5147784202580133e-41,has_family_login
+channel_name: Referral (vs Organic),segment,8.045880113720555,2.7164845345697053,13.375275692871405,0.003086477972488321,"C(channel_name, Treatment('Organic'))[T.Referral]"
+has_successful_spend,behaviour,7.77037000715436,5.108943220003584,10.431796794305138,1.0505366815852379e-08,has_successful_spend
+has_savings_goal,behaviour,6.0933365058557545,3.3519497084706447,8.834723303240864,1.321876423550202e-05,has_savings_goal
+login_days_per5,behaviour,5.119072596905595,3.9920816581722542,6.246063535638936,5.453238253269167e-19,login_days_per5
+has_custom_card,behaviour,3.1928275421309507,-1.7517873048688917,8.137442389130793,0.20566194471727728,has_custom_card
+channel_name: Direct (vs Organic),segment,1.4815262564390812,-5.431072346003432,8.394124858881593,0.6744382478291056,"C(channel_name, Treatment('Organic'))[T.Direct]"
+channel_name: Google (vs Organic),segment,1.2239642226651035,-3.0135625299842648,5.461490975314471,0.5713158737847475,"C(channel_name, Treatment('Organic'))[T.Google]"
+has_notification_enabled,behaviour,0.7292338118822792,-1.9174143976727813,3.37588202143734,0.5891756725653374,has_notification_enabled
+num_children,segment,0.443394445869869,-1.110401608324867,1.9971905000646046,0.575957429359174,num_children
+subscription_tier: Plus (vs Everyday),segment,0.26079879146237034,-2.8102288734321546,3.331826456356895,0.8678070092352975,"C(subscription_tier, Treatment('Everyday'))[T.Plus]"
+subscription_tier: Max (vs Everyday),segment,-1.9434823179272593,-5.8081029087612315,1.9211382729067126,0.3243059013995777,"C(subscription_tier, Treatment('Everyday'))[T.Max]"
+platform: Android (vs iOS),segment,-5.092108547410527,-7.991965138420584,-2.192251956400471,0.0005781351252731552,"C(platform, Treatment('iOS'))[T.Android]"
+channel_name: Facebook (vs Organic),segment,-5.479881074166807,-9.454867411317842,-1.5048947370157704,0.006892603292936979,"C(channel_name, Treatment('Organic'))[T.Facebook]"
+channel_name: TV (vs Organic),segment,-6.972426889381731,-12.031635706199367,-1.9132180725640962,0.006909919333296903,"C(channel_name, Treatment('Organic'))[T.TV]"
+platform: Web (vs iOS),segment,-7.966996331773414,-11.935084110685606,-3.998908552861221,8.314429260220001e-05,"C(platform, Treatment('iOS'))[T.Web]"
+channel_name: Partnerships (vs Organic),segment,-12.206794033411795,-20.350876667590008,-4.062711399233579,0.0033065614847942897,"C(channel_name, Treatment('Organic'))[T.Partnerships]"
+has_failed_spend,behaviour,-12.333835502779682,-15.75738104497217,-8.910289960587193,1.6523274447241987e-12,has_failed_spend
+channel_name: TikTok (vs Organic),segment,-14.424149866998201,-19.204652793974873,-9.64364694002153,3.343564421449161e-09,"C(channel_name, Treatment('Organic'))[T.TikTok]"

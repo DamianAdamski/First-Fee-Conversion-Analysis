@@ -1,0 +1,33 @@
+# Environment variables and passwords
+.env
+pgpass.conf
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# VS Code local settings
+.vscode/
+
+# Dataset supplied for the take-home: not mine to publish
+Data/raw/
+Data/processed/
+*.xlsx
+
+# Tableau packaged workbooks and extracts embed the customer-level data
+*.twbx
+*.hyper
+*.tde
+
+# Office lock files and temporary files
+~$*
+*.tmp
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
